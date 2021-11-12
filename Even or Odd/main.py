@@ -6,3 +6,6 @@ if compute == 0:
     print("Number is even.")
 else:
     print("Number is odd.")
+    
+    
+# Code from https://github.com/DaneeSkripter/MeLearningPython/ 
