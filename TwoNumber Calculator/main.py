@@ -1,12 +1,22 @@
+print(" ")
 print("Type the first number to calculate:")
-input1 = int(input())
+try: 
+    input1 = int(input())
+except:
+    print('Input not valid! Value must be a number.')
+    exit()
+
 print(" ")
 print("Type a calculating action:")
 print("Hint: + for addition, - for subtraction, * for multiplication, / for division")
 input2 = input()
 print(" ")
 print("Type the second number to calculate:")
-input3 = int(input())
+try: 
+    input3 = int(input())
+except:
+    print('Input not valid! Value must be a number.')
+    exit()
 print(" ")
 print("Result:")
 if input2 == "+":
